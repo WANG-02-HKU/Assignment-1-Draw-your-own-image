@@ -2,9 +2,9 @@ import time
 import turtle
 
 screen = turtle.Screen()
-turtle.title('Python（冰墩墩）')  # 可以自己修改名称
-turtle.speed(40)  # 可以自己调节速度
-# 左手
+turtle.title('Python（bingdundun）')  
+turtle.speed(40)  
+# left hand
 turtle.penup()
 
 turtle.goto(177, 112)
@@ -27,7 +27,7 @@ turtle.circle(-300, 23)
 
 turtle.end_fill()
 
-# 左手内
+# inside left hand
 turtle.penup()
 
 turtle.goto(182, 95)
@@ -52,8 +52,7 @@ turtle.circle(-200, 30)
 
 turtle.end_fill()
 
-# 轮廓
-# 头顶
+# head
 turtle.penup()
 
 turtle.goto(-73, 230)
@@ -72,19 +71,19 @@ turtle.setheading(20)
 
 turtle.circle(-250, 35)
 
-# 左耳
+# left ear
 turtle.setheading(50)
 
 turtle.circle(-42, 180)
 
-# 左侧
+# left side
 turtle.setheading(-50)
 
 turtle.circle(-190, 30)
 
 turtle.circle(-320, 45)
 
-# 左腿
+# left leg
 turtle.circle(120, 30)
 
 turtle.circle(200, 12)
@@ -99,7 +98,7 @@ turtle.circle(15, 115)
 
 turtle.circle(100, 12)
 
-# 右腿
+# right leg
 turtle.circle(15, 120)
 
 turtle.circle(-15, 110)
@@ -114,7 +113,7 @@ turtle.circle(200, 35)
 
 turtle.circle(-150, 20)
 
-# 右手
+# right hand
 turtle.setheading(-120)
 
 turtle.circle(50, 30)
@@ -123,19 +122,19 @@ turtle.circle(-35, 200)
 
 turtle.circle(-300, 23)
 
-# 右侧
+# right side
 turtle.setheading(86)
 
 turtle.circle(-300, 26)
 
-# 右耳
+# right ear
 turtle.setheading(122)
 
 turtle.circle(-53, 160)
 
 turtle.end_fill()
 
-# 右耳内
+# inside right hand
 turtle.penup()
 
 turtle.goto(-130, 180)
@@ -160,7 +159,7 @@ turtle.circle(150, 20)
 
 turtle.end_fill()
 
-# 左耳内
+# inside left ear
 turtle.penup()
 
 turtle.goto(90, 230)
@@ -179,7 +178,7 @@ turtle.circle(150, 23)
 
 turtle.end_fill()
 
-# 右手内
+# inside right hand
 turtle.penup()
 
 turtle.goto(-180, -55)
@@ -204,7 +203,7 @@ turtle.circle(300, 14)
 
 turtle.end_fill()
 
-# 左腿内
+# inside left leg
 turtle.penup()
 
 turtle.goto(108, -168)
@@ -235,7 +234,7 @@ turtle.circle(-200, 29)
 
 turtle.end_fill()
 
-# 右腿内
+# inside right leg
 turtle.penup()
 
 turtle.goto(-38, -210)
@@ -266,8 +265,8 @@ turtle.circle(-200, 27)
 
 turtle.end_fill()
 
-# 右眼
-# 眼圈
+# right eye
+# eye circle
 turtle.penup()
 
 turtle.goto(-64, 120)
@@ -288,7 +287,7 @@ turtle.circle(-100, 50)
 
 turtle.end_fill()
 
-# 眼珠
+# eyeball
 turtle.penup()
 
 turtle.goto(-47, 55)
@@ -357,8 +356,8 @@ turtle.circle(5, 360)
 
 turtle.end_fill()
 
-# 左眼
-# 眼圈
+# left eye
+# eye circle
 turtle.penup()
 
 turtle.goto(51, 82)
@@ -381,7 +380,7 @@ turtle.circle(-120, 45)
 
 turtle.end_fill()
 
-# 眼珠
+# eyeball
 turtle.penup()
 
 turtle.goto(79, 60)
@@ -450,7 +449,7 @@ turtle.circle(5, 360)
 
 turtle.end_fill()
 
-# 鼻子
+# nose
 turtle.penup()
 
 turtle.goto(37, 80)
@@ -469,7 +468,7 @@ turtle.circle(-8, 130)
 
 turtle.end_fill()
 
-# 嘴
+# mouth
 turtle.penup()
 
 turtle.goto(-15, 48)
@@ -488,7 +487,7 @@ turtle.circle(-45, 100)
 
 turtle.end_fill()
 
-# 彩虹圈
+# Rainbow Loop
 turtle.penup()
 
 turtle.goto(-135, 120)
@@ -583,7 +582,7 @@ turtle.circle(-120, 100)
 
 turtle.penup()
 
-# 爱心
+# heart
 turtle.penup()
 
 turtle.goto(220, 115)
@@ -612,7 +611,7 @@ turtle.circle(-8, 180)
 
 turtle.end_fill()
 
-# 五环
+# five rings
 turtle.penup()
 
 turtle.goto(-5, -170)
@@ -673,7 +672,7 @@ turtle.write("BEIJING 2022", font=('Arial', 10, 'bold italic'))
 
 turtle.hideturtle()
 
-time.sleep(3)  # 页面停留时间
+time.sleep(3)  
 
-screen.bye()  # 关闭页面
+screen.bye()  
 
